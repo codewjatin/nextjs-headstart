@@ -4,11 +4,13 @@
 
 ## 🚀 Getting Started
 
-```py
+```bash
 npx degit codewjatin/nextjs-headstart my-app
-
+```
+```
 cd my-app
-
+```
+```bash
 npm install # or yarn
 
 npm run dev # or yarn dev
