@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  background: white;
+  background-image: radial-gradient(
+      circle at 25px 25px,
+      lightgray 2%,
+      transparent 0%
+    ),
+    radial-gradient(circle at 75px 75px, lightgray 2%, transparent 0%);
+  background-size: 75px 75px;
+}
+
+svg {
+  shape-rendering: crispEdges;
+  text-rendering: optimizeLegibility;
+}
+
+code::before,
+code::after {
+  content: '`';
+}
+
+code {
+  color: #d400ff;
+  white-space: pre-wrap;
+  letter-spacing: -1px;
+}
