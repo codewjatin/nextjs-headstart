@@ -27,4 +27,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 To learn more about Next.js and Sass, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Next.js 13 Documentation (beta)](https://beta.nextjs.org/docs) - learn about Next.js 13 features and API.
