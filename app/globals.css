@@ -22,7 +22,7 @@ body {
 }
 
 svg {
-  shape-rendering: crispEdges;
+  shape-rendering: geometricprecision;
   text-rendering: optimizeLegibility;
 }
 
