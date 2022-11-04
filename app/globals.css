@@ -36,3 +36,22 @@ code {
   white-space: pre-wrap;
   letter-spacing: -1px;
 }
+
+svg.github-tag:hover path.octo-arm {
+  animation: octocat-wave 0.56s;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-20deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
