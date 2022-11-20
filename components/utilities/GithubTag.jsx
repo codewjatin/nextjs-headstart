@@ -24,7 +24,7 @@ export default function Github({ href }) {
           className="octo-arm"
           d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2"
           fill="currentColor"
-          style={{ 'transform-origin': '130px 110px' }}
+          style={{ transformOrigin: '130px 110px' }}
         />
         <path
           className="octo-body"
